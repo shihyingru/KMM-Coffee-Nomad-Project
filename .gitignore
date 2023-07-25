@@ -31,8 +31,13 @@ google-services.json
 
 # Android Profiling
 *.hprof
-.gradle
 .DS_Store
-build
-local.properties
 
+#ios cocoapods
+iosApp/Podfile.lock
+iosApp/Pods/*
+iosApp/iosApp.xcworkspace/*
+iosApp/iosApp.xcodeproj/*
+!iosApp/iosApp.xcodeproj/project.pbxproj
+shared/shared.podspec
+xcuserdata
