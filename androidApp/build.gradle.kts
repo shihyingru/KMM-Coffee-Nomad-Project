@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.kaleidoscope.coffeenomad.android"
-    compileSdk = 33
+    compileSdk = 34
     defaultConfig {
         applicationId = "com.kaleidoscope.coffeenomad.android"
         minSdk = 24
